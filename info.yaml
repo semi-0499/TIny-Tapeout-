@@ -6,7 +6,7 @@ project:
   discord:      "semi_00"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Test some logic gates and a clock divider"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     1000       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     10       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -29,8 +29,8 @@ pinout:
   uo[0]: "output and"
   uo[1]: "output nand"
   uo[2]: "output or"
-  uo[3]: "output clock div 16"
-  uo[4]: "output clock div 12"
+  uo[3]: ""
+  uo[4]: ""
   uo[5]: ""
   uo[6]: ""
   uo[7]: ""
